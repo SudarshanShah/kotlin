@@ -16,4 +16,7 @@ fun main() {
         ":("
     }
     println("If-Else evaluates to $res")
+
+    val ans = if (n1 > n2) ":)" else ":("
+    println(ans)
 }
