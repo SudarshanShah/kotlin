@@ -12,4 +12,5 @@ fun main() {
     // === check for reference equality
     println(name1 === name3)
     println(name1 === name4)
+    println(name1 === name2)
 }
