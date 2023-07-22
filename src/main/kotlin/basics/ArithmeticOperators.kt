@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     val num1 = 10
     val num2 = 2

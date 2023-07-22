@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var i: Int = 21
     var l: Long = 100L

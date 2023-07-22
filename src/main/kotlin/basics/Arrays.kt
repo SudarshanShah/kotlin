@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     val names = arrayOf("Superman", "Batman", "Wonder Woman")
     println(names.contentToString())

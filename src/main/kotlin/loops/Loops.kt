@@ -1,3 +1,5 @@
+package loops
+
 fun main() {
     val names = listOf("Sudarshan", "Stark", "Steve", "Peter", "Harry")
     val numbers = intArrayOf(1, 2, 3, 4, 5)

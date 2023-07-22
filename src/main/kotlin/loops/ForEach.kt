@@ -1,3 +1,5 @@
+package loops
+
 fun main() {
     val names = listOf("Sudarshan", "Tony", "Steve", "Clark", "Bruce")
 

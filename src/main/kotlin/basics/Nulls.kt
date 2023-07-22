@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var name = "Sudarshan"
     // by default, variables can't have value as null

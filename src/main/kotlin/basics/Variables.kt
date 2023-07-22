@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var name: String = "Sudarshan"
     var age: Int = 26

@@ -1,3 +1,5 @@
+package strings
+
 fun main() {
     val name = "Sudarshan"
     println(name)

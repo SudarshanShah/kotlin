@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     // Immutable variable -> read-only
     // final String brand = "Sudarshan"  --> equivalent in Java

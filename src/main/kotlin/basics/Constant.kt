@@ -1,3 +1,5 @@
+package basics
+
 // static final PI = 3.14 --> equivalent of Java
 // The value is known before code execution
 // It can only be defined outside main()

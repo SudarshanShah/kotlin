@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     // No need to specifically write type when declaring variables and assigning values
     // Kotlin infers the type automatically for every variable

@@ -1,3 +1,5 @@
+package strings
+
 fun main() {
     val name1 = "Superman"
     val name2 = "Batman"
