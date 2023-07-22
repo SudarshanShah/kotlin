@@ -1,3 +1,5 @@
+package oops
+
 fun main() {
     Constructors(1)
     // If a class have primary constructor with default value of all fields,

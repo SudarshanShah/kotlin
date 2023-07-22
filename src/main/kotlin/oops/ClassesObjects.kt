@@ -1,3 +1,5 @@
+package oops
+
 fun main() {
     val tv = SmartDevice("Sony", 70000.0)
 //    tv.brand = "Sony"
