@@ -2,8 +2,8 @@ fun main() {
     Constructors(1)
     // If a class have primary constructor with default value of all fields,
     // compiler generates new parameterless constructor which uses the default values.
-    val  obj1 = Constructors1()
-    val obj2 = Constructors1("Constructor")
+    Constructors1()
+    Constructors1("Constructor")
 }
 
 class Constructors {
@@ -17,6 +17,4 @@ class Constructors {
     }
 }
 
-class Constructors1(val name: String = "Hello") {
-
-}
+class Constructors1(val name: String = "Hello")
