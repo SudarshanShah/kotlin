@@ -1,3 +1,5 @@
+package functions
+
 fun main() {
     greet("Sudarshan", 26)
     greet("Alex", 17)
