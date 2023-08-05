@@ -1,14 +1,20 @@
 package oops
 
-import kotlin.reflect.typeOf
-
 fun main() {
 
     val obj = DerivedClass("Sudarshan", "Shah")
     println("The name is ${obj.name} and full name size is ${obj.size}")
 
-    val c = C()
+    val c: A = C()
     c.draw()
+    c.paint()
+
+    // variable of type parent can't access method exclusive to child class
+    //c.color()
+
+    // variable of type child class C
+    val c1 = C()
+    c1.color();
 }
 
 open class Base(p: Int) {
@@ -58,6 +64,10 @@ open class A {
     open fun draw() {
         println("In Class A")
     }
+
+    open fun paint() {
+        println("paint() => In Class A")
+    }
 }
 
 interface B {
@@ -71,4 +81,13 @@ class C() : A(), B {
         super<A>.draw()
         super<B>.draw()
     }
-}
+
+    override fun paint() {
+        super.paint()
+        println("paint() => In Class C")
+    }
+
+    fun color() {
+        println("color() => In Class C")
+    }
+ }
