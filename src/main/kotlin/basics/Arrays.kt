@@ -22,4 +22,7 @@ fun main() {
     println(emptyArray.contentToString())
 
 
+    // initialize Array using code logic
+    val array = Array(5) {it * 2}
+    println(array.contentToString())
 }
