@@ -1,3 +1,5 @@
+package collections
+
 fun main() {
     // It creates immutable list
     val names = listOf(
