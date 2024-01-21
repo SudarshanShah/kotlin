@@ -29,6 +29,15 @@ fun main() {
     heroes.add("Peter")
     heroes.add("Diana")
     heroes.add(1, "Natasha")
+    heroes += "Wanda"
     println(heroes)
     println(heroes.isEmpty())
+    heroes.sort()
+    println(heroes)
+
+    // Iterating through list
+    for(hero in heroes) {
+        println(hero)
+    }
+
 }
