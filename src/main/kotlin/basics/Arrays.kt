@@ -25,4 +25,8 @@ fun main() {
     // initialize Array using code logic
     val array = Array(5) {it * 2}
     println(array.contentToString())
+
+    // create an array with all elements as 6
+    val sixSixes = Array(6) { 6 }
+    println(sixSixes.contentToString())
 }
